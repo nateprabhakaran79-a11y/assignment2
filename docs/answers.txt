@@ -1,1 +1,34 @@
- 
+Date for git tutorials - Friday October 16, 2026
+Date for github account creation- December 2025
+1.Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 698 bytes | 698.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/nateprabhakaran79-a11y/assignment2.git
+   f4975e5..dae629d  master -> master
+
+2. git rev-list --count HEAD   9
+
+3. git log -1 --format=%cd -- README.md  Fri Oct 16 21:23:59 2026 -0400  
+
+4. Branches let you work on new features or bug fixes in isolation without breaking the main code.Branches let multiple developers work
+ on different changes at the same time and merge them in when ready.
+
+5. git status shows the current state of the working directory: which files are modified, staged, or untracked. git log shows the history of commits that have already been made.
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8. Inheritance: a class acquires the attributes and methods of another class, so it can reuse and extend that code.
+Polymorphism: objects of different classes can be used through the same interface, and each responds in its own way.
+Encapsulation: data and the methods that work on it are bundled inside a class, and internal details are hidden from outside code.
+
+9. In the Integration Manager workflow, one integration manager merges every developer's changes and resolves all conflicts. In the Dictator and Lieutenants workflow,
+ integration is split up: lieutenants merge changes for their group of developers, and the dictator merges only the lieutenants' work into the blessed repository.
+
+10. In the Centralized workflow, all 100 developers push to one repository, which leads to constant conflicts. With Dictator and Lieutenants,
+ lieutenants resolve conflicts within their groups first, so the dictator only integrates a few repositories. This spreads out the work and keeps the main repository stable.
